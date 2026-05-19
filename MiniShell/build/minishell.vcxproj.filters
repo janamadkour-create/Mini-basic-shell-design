@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\BESTWAY\OneDrive - Egyptian Ministry of Education\Documents\New project\MiniShell\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\BESTWAY\OneDrive - Egyptian Ministry of Education\Documents\New project\MiniShell\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{514817CE-02AD-3D4A-87F4-C31C7A998FE7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

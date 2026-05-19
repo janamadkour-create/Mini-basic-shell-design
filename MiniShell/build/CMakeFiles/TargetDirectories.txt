@@ -1,0 +1,3 @@
+C:/Users/BESTWAY/OneDrive - Egyptian Ministry of Education/Documents/New project/MiniShell/build/CMakeFiles/minishell.dir
+C:/Users/BESTWAY/OneDrive - Egyptian Ministry of Education/Documents/New project/MiniShell/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/BESTWAY/OneDrive - Egyptian Ministry of Education/Documents/New project/MiniShell/build/CMakeFiles/ZERO_CHECK.dir

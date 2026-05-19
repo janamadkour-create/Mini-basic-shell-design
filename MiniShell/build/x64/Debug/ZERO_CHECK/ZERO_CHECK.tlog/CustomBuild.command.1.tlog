@@ -1,0 +1,10 @@
+^C:\USERS\BESTWAY\ONEDRIVE - EGYPTIAN MINISTRY OF EDUCATION\DOCUMENTS\NEW PROJECT\MINISHELL\BUILD\CMAKEFILES\E956A7E05BAB52AF96139D9D12D951FD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/BESTWAY/OneDrive - Egyptian Ministry of Education/Documents/New project/MiniShell" "-BC:/Users/BESTWAY/OneDrive - Egyptian Ministry of Education/Documents/New project/MiniShell/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/BESTWAY/OneDrive - Egyptian Ministry of Education/Documents/New project/MiniShell/build/MiniShell.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
