@@ -51,6 +51,77 @@ def run_command():
 
         command_entry.delete(0, tk.END)
 
+        return 
+    if command == "exit":
+    
+       output_area.insert(
+        tk.END,
+        "Exiting MiniShell...\n"
+    )
+
+       window.after(1000, window.destroy)
+
+       return
+     
+    if command == "help":
+    
+        output_area.insert(
+        tk.END,
+        "\n========== MiniShell Commands ==========\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "help        - Show available commands\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "pwd         - Show current directory\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "cd <dir>    - Change directory\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "ls          - List files and folders\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "mkdir <dir> - Create a new directory\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "echo <text> - Print text\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "date        - Show current date\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "time        - Show current time\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "exit        - Exit shell\n"
+    )
+
+        output_area.insert(
+        tk.END,
+        "========================================\n\n"
+    )
+
+        command_entry.delete(0, tk.END)
+
         return
 
     if command.startswith("cd "):
